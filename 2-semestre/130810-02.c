@@ -1,7 +1,11 @@
 /*
-2) Refaça o exercício 1 e ao invés de gravar todos os elementos em um único arquivo, grave os valores pares no arquivo
+Trabalho de fim de semestre - 2º Engenharia da Computação - UNITAU - Prof. Luis Eduardo
+Arquivo: 130810-02.c
+Autor: Caíque de Castro S. Silva, Giovanna Alves dos Santos e João Victor Guedes
+Objetivo: Refaça o exercício 1 e ao invés de gravar todos os elementos em um único arquivo, grave os valores pares no arquivo
 "par.txt" e os ímpares em "impar.txt".
 */
+
 #include <stdio.h>
 
 int main() {

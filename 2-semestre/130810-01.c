@@ -1,12 +1,9 @@
 /*
-1) Faça um programa que solicite dois valores numéricos ao usuário. O segundo valor deverá ser maior que o primeiro.
-Grave em um arquivo chamado "saida.txt". Todos os números da faixa dos números indicados. Por exemplo, se forem
-informados 1 e 100, gravar:
-1
-2
-3
-...
-100
+Trabalho de fim de semestre - 2º Engenharia da Computação - UNITAU - Prof. Luis Eduardo
+Arquivo: 130810-01.c
+Autor: Caíque de Castro S. Silva, Giovanna Alves dos Santos e João Victor Guedes
+Objetivo: Faça um programa que solicite dois valores numéricos ao usuário. O segundo valor deverá ser maior que o primeiro.
+Grave em um arquivo chamado "saida.txt", todos os números inteiros entre o primeiro e o segundo valor, com cada número em uma linha.
 */
 
 #include <stdio.h>
@@ -24,7 +21,6 @@ int main() {
 		printf("Digite o teto: ");
 		scanf("%d", &max);
 	} while(max<min);
-
 
 	if(arquivo == NULL) {
 		printf("Ocorreu um erro.\n");

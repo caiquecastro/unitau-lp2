@@ -1,3 +1,11 @@
+/*
+Trabalho de fim de semestre - 2º Engenharia da Computação - UNITAU - Prof. Luis Eduardo
+Arquivo: 130810-05.c
+Autor: Caíque de Castro S. Silva, Giovanna Alves dos Santos e João Victor Guedes
+Objetivo: Refaça o exercício 3 e faça a somatória dos pares e dos ímpares. A dos pares deverá ser gravada em
+"par.txt" e a dos ímpares em "impar.txt". Se o arquivo de saída existir, primeiramente ele deverá ser removido.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

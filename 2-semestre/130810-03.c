@@ -1,6 +1,10 @@
 /*
-3) Faça um programa que leia o arquivo "entrada.dat" e imprima na tema a soma de todos os termos.
+Trabalho de fim de semestre - 2º Engenharia da Computação - UNITAU - Prof. Luis Eduardo
+Arquivo: 130810-03.c
+Autor: Caíque de Castro S. Silva, Giovanna Alves dos Santos e João Victor Guedes
+Objetivo: Faça um programa que leia o arquivo "entrada.dat" e imprima na tema a soma de todos os termos.
 */
+
 #include <stdio.h>
 
 int main() {
@@ -17,7 +21,6 @@ int main() {
 		while(fscanf(arquivo, "%lf", &numero) != EOF) {
 			soma += numero;
 		}
-		printf("Soma de todos os termos: ");
 		printf("%lf\n", soma);
 	}
 
