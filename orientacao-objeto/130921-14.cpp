@@ -68,5 +68,26 @@ class fatura {
 
 int main() {
 	fatura loja;
+	int aux1;
+	float aux2;
+	string aux3;
+	cout << "Digite o ID do Produto: ";
+	cin >> aux1;
+	loja.setID(aux1);
+	cout << "Digite a descrição do produto: ";
+	cin.ignore();
+	getline(cin, aux3);
+	loja.setDescricao(aux3);
+	cout << "Digite o preço do produto: ";
+	cin >> aux2;
+	loja.setPreco(aux2);
+	cout << "Digite a quantidade de produto: ";
+	cin >> aux1;
+	loja.setQuantidade(aux1);
+	cout << "ID -> " << loja.getID() << endl;
+	cout << "Descrição -> " << loja.getDescricao() << endl;
+	cout << "Preço -> " << loja.getPreco() << endl;
+	cout << "Quantidade -> " << loja.getQuantidade() << endl;
+	cout << "Total -> " << loja.getQuantidadeFaturas() << endl;
 	return EXIT_SUCCESS;
 }
