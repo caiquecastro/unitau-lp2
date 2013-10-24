@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class calculadora {
+class Calculadora {
 	private:
 		double numero1;
 		double numero2;
@@ -21,7 +21,7 @@ class calculadora {
 		}
 	public:
 		//construtor
-		calculadora() {
+		Calculadora() {
 			cout << "Bem vindo à Calculadora" << endl;
 			setNumero1(0);
 			setNumero2(0);
@@ -66,7 +66,7 @@ class calculadora {
 					cout << "Operação inválida" << endl;
 			}
 		}
-		~calculadora() {
+		~Calculadora() {
 			cout << "Saindo.." << endl << "Muito obrigado por utilizar minha calculadora." << endl;
 		}
 };

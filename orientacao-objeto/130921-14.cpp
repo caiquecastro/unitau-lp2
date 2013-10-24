@@ -5,14 +5,14 @@
 
 using namespace std;
 
-class fatura {
+class Fatura {
 	private:
 		int idProduto;
 		string descricaoProduto;
 		int quantidadeProduto;
 		float precoProduto;
 	public:
-		fatura() {
+		Fatura() {
 			cout << "Bem vindo ao Faturas v1.0.0" << endl;
 			setID(0);
 			setDescricao("");
@@ -61,7 +61,7 @@ class fatura {
 		float getQuantidadeFaturas(void) {
 			return getQuantidade()*getPreco();
 		}
-		~fatura() {
+		~Fatura() {
 			cout << "Saindo do Faturas v1.0.0" << endl;
 		}
 };
