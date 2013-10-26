@@ -1,6 +1,6 @@
 /*
 Trabalho de fim de semestre - 2º Engenharia da Computação - UNITAU - Prof. Luis Eduardo
-Arquivo: 11.cpp
+Arquivo: 12.cpp
 Autor: Caíque de Castro S. Silva, Giovanna Alves dos Santos e João Victor Guedes
 Objetivo: Faça um programa que realize a somatória de todos os termos pares e ímpares
 de Fibonacci de forma isolada. Se o usuário não informar o valor do Fibonacci, o programa
