@@ -10,7 +10,7 @@ Serão armazenados aqui:
 * Códigos de trabalhos requisitados pelo professor.
 * Códigos de apoio a outros projetos.
 
-##Ementa
+## Ementa
 * Revisão de C ANSI
 * Recursividade
 * Ponteiros
